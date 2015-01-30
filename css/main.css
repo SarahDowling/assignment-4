@@ -4,10 +4,18 @@ html {
 	line-height: 1.5;
 }
 
+a{
+	color:#713837;
+}
+
 h1,h2, h3{
 	font-family: 'Bevan', cursive;
 	color:#79756f;
 	font-size:2rem;
+}
+
+h1{
+	color: white;
 }
 
 h2{
@@ -32,6 +40,12 @@ b{
 	list-style-type: none;
 	padding: 0;
 	line-height: 1.75;
+
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
 }
 
 .tplanets{
@@ -39,9 +53,6 @@ b{
 	line-height: 1.75;
 }
 
-a{
-	color:#713837;
-}
 
 .sources{
 	list-style-type: circle;
@@ -54,6 +65,13 @@ a:hover{
 dt{
 	font-weight: bold;
 }
+
+figure{
+	border: 5px #bcb9b2;
+	border-radius: 10px;
+}
+
+																	/*can't make border*/
 
 figcaption{
 	font-style:italic;
@@ -87,4 +105,15 @@ i{
 
 .normal{
 	font-style:normal;
+}
+
+aside{
+	background-color: #79756f;
+	margin: 0;
+}
+
+																/*can't make box go left*/
+
+aside h2{
+	color: #dbd6cf;
 }
