@@ -1,0 +1,90 @@
+html {
+	font-family:arial, sans-serif;
+	background-color:#dbd6cf;
+	line-height: 1.5;
+}
+
+h1,h2, h3{
+	font-family: 'Bevan', cursive;
+	color:#79756f;
+	font-size:2rem;
+}
+
+h2{
+	font-size: 1.5rem;
+}
+
+h3{
+	font-size:1.25rem;
+}
+
+p{
+	color:black;
+}
+
+b{
+	font-style: normal;
+	font-weight: normal;
+	color:#79756f;
+}
+
+.nav{
+	list-style-type: none;
+	padding: 0;
+	line-height: 1.75;
+}
+
+.tplanets{
+	list-style-type: lower-roman;
+	line-height: 1.75;
+}
+
+a{
+	color:#713837;
+}
+
+.sources{
+	list-style-type: circle;
+}
+
+a:hover{
+	color:red
+}
+
+dt{
+	font-weight: bold;
+}
+
+figcaption{
+	font-style:italic;
+	font-size: 0.75rem;
+}
+
+blockquote {
+	font-style: italic;
+	font-family: georgia, serif;
+	font-size: 1.5rem;
+}
+
+footer {
+	color:#79756f;
+	text-align: right;
+	font-size: 0.75rem;
+}
+
+em{
+	color:#79756f;
+	font-size:1.5em;
+}
+
+q{
+	font-style:italic;
+}
+
+i{
+	font-style:italic;
+}
+
+.normal{
+	font-style:normal;
+}
