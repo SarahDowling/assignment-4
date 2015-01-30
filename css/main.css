@@ -4,6 +4,21 @@ html {
 	line-height: 1.5;
 }
 
+body{
+	margin:0;
+}
+
+header{
+	background-color: #79756f;
+	margin: 0;
+	text-align: center;
+	padding-top: 1em;
+}
+
+main{
+	padding: 0em 1em;
+}
+
 a{
 	color:#713837;
 }
@@ -16,6 +31,7 @@ h1,h2, h3{
 
 h1{
 	color: white;
+	margin: 0;
 }
 
 h2{
@@ -40,12 +56,24 @@ b{
 	list-style-type: none;
 	padding: 0;
 	line-height: 1.75;
-
+	display: inline-block;
+	margin: 0;
+	background-color: #79756f;
 }
 
 nav a{
 	color: white;
 	text-decoration: none;
+	display: inline-block;
+	background-color: #703838;
+	padding: 0.5em 0.75em;
+	border: 5px #703838;
+	border-radius: 5px;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0.15em;
 }
 
 .tplanets{
@@ -67,11 +95,10 @@ dt{
 }
 
 figure{
-	border: 5px #bcb9b2;
+	border: 2px solid #bcb9b2;
 	border-radius: 10px;
+	padding: 0.75em;
 }
-
-																	/*can't make border*/
 
 figcaption{
 	font-style:italic;
@@ -82,6 +109,7 @@ blockquote {
 	font-style: italic;
 	font-family: georgia, serif;
 	font-size: 1.5rem;
+	line-height: 1;
 }
 
 footer {
@@ -112,8 +140,19 @@ aside{
 	margin: 0;
 }
 
-																/*can't make box go left*/
+ol{
+	margin: 0;
+}
+																/*can't make box go left OL HAS MARGIN ON BOTTOM + BODY MARGIN REMOVE*/
 
 aside h2{
 	color: #dbd6cf;
+}
+
+img{
+	width: 100%;
+}
+
+.wiki{
+	font-style: normal;
 }
